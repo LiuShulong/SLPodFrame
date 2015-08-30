@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'SLPodFrame_Example', :exclusive => true do
+  pod "SLPodFrame", :path => "../"
+end
+
+target 'SLPodFrame_Tests', :exclusive => true do
+  pod "SLPodFrame", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+end
