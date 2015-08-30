@@ -1,0 +1,2 @@
+PODS_SLPODFRAME_EXAMPLE_SLPODFRAME_FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/../../Pod/libs"
+PODS_SLPODFRAME_EXAMPLE_SLPODFRAME_OTHER_LDFLAGS = -framework "BaiduMapAPI" -framework "CoreGraphics" -framework "CoreLocation" -framework "OpenGLES" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration"

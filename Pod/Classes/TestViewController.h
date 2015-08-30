@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#import <BaiduMapAPI/BMapKit.h>
+
 @interface TestViewController : UIViewController
 
 @end

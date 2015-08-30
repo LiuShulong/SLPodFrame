@@ -8,6 +8,8 @@
 
 #import "SLAppDelegate.h"
 
+#import <SLPodFrame/SLPod.h>
+
 @implementation SLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions

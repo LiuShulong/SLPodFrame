@@ -7,6 +7,7 @@
 //
 
 #import "SLViewController.h"
+#import <SLPodFrame/TestViewController.h>
 
 @interface SLViewController ()
 

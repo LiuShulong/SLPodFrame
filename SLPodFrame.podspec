@@ -19,4 +19,8 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'SLPodFrame' => ['Pod/Assets/*.png']
   }
+  s.resource = "Pod/resources/mapapi.bundle"
+  s.public_header_files = 'Pod/libs/BaiduMapAPI.framework/Headers.h'
+  s.ios.vendored_frameworks = 'Pod/libs/BaiduMapAPI.framework'
+  s.frameworks = 'CoreLocation','QuartzCore','OpenGLES','SystemConfiguration','CoreGraphics','Security','BaiduMapAPI'
 end
