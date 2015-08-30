@@ -1,0 +1,6 @@
+framework module SLPodFrame {
+  umbrella header "Pods-SLPodFrame_Tests-SLPodFrame-umbrella.h"
+
+  export *
+  module * { export * }
+}
