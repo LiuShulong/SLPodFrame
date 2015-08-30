@@ -4,7 +4,8 @@ Pod::Spec.new do |s|
   s.summary          = "A private pod test."
 
   s.description      = <<-DESC
-                       A private pod test
+                       A private pod test. try!
+                     DESC
 
   s.homepage         = "https://github.com/LiuShulong/SLPodFrame"
   s.license          = 'MIT'
